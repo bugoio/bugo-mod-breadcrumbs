@@ -4,6 +4,9 @@
 
 @import "bugo-breadcrumbs-vars";
 
+@debug "Loading Bugo Breadcrumb Module SASS";
+@import "custom-variables";
+
 .breadcrumbs {
   grid-area: bread;
   @include space-element-x(margin, $breadcrumbs-margin-left, $breadcrumbs-margin-right);
