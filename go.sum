@@ -1,3 +1,2 @@
-github.com/bugoio/bugo-sass-utilities v0.0.6 h1:hcvrupHpuco75XWs3zjGtxJZmWTDBV/WrZcaGEYOK+Q=
-github.com/bugoio/bugo-sass-utilities v0.0.6/go.mod h1:0tVnrsnCG61j64fUv88di5gpYw5/3fgqdQB4iUOjook=
-github.com/bugoio/bugo-sass-utilities v0.0.7/go.mod h1:0tVnrsnCG61j64fUv88di5gpYw5/3fgqdQB4iUOjook=
+github.com/bugoio/bugo-sass-utilities v0.0.0-20191007162338-a4cfcf43d92f h1:5rMwOLLTJhsdzIpf3oRkgbG1+TosLNGzIXgeT3Pa7X8=
+github.com/bugoio/bugo-sass-utilities v0.0.0-20191007162338-a4cfcf43d92f/go.mod h1:0tVnrsnCG61j64fUv88di5gpYw5/3fgqdQB4iUOjook=
