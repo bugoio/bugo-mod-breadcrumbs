@@ -21,14 +21,17 @@
     flex-wrap: nowrap;
 
     li {
-      display: inline;
+      display: inline-flex;
       margin: 0;
       position: relative;
       white-space: nowrap;
+      align-items: center;
+      @include ms-respond(font-size,0.5);
 
       &:not(:first-child) {
         margin-left: 0.5em;
         &::before {
+          display: inline-block !important;
           margin: 0;
           padding: 0;
           content: $breadcrumbs-char;
@@ -44,13 +47,20 @@
 
       a {
         white-space: nowrap;
-        display: inline;
-        white-space: nowrap;
+        display: inline-block;
         overflow: hidden;
         text-overflow: ellipsis;
         font-weight: $breadcrumbs-font-weight;
         @include ms-respond(font-size,$breadcrumbs-font-size);
-        @include responsive-property($breadcrumbs-max-chars, "max-width");
+        max-width: 14ch;
+
+        @include respond-to(sm){
+          max-width: 23ch;
+        }
+
+        @include respond-to(md){
+          max-width: 60vw;
+        }
       }
     }
   }
