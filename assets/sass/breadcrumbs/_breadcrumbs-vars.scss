@@ -23,9 +23,9 @@ $breadcrumbs-max-chars         : (
 
 // * Margin
 // false | modular scale ratio
-$breadcrumbs-margin-top        : $global-margin !default;
+$breadcrumbs-margin-top        : 0 !default;
 $breadcrumbs-margin-right      : false !default;
-$breadcrumbs-margin-bottom     : $global-margin !default;
+$breadcrumbs-margin-bottom     : 0 !default;
 $breadcrumbs-margin-left       : false !default;
 
 // * Padding
